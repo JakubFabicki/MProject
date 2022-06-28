@@ -14,7 +14,7 @@ html{
     scroll-behavior: smooth;
 }
 
-a:hover, a:visited, a:link, a:active
+a:-webkit-any-link
 {
     text-decoration: none;
 }
