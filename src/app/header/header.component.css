@@ -49,7 +49,7 @@ nav{
     transform: translateX(-105%);
 
     max-width: 80vw;
-    width: 400px;
+    width: 450px;
     top: 75px;
     position: fixed;
     height: calc(100vh - 75px);
@@ -75,4 +75,44 @@ nav{
 
 .leftSide li a{
     padding: 20px;
+}
+
+.bottom-nav{
+    display: none;
+}
+
+@media only screen and (min-width: 600px) {
+    nav{
+        padding: 18px 70px;
+    }
+
+    .name{
+        text-align: left;
+        flex-grow: 1;
+    }
+
+    .bottom-nav{
+        display: flex;
+    }
+
+    .nav a{
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav{
+        margin-left: 50px;
+    }
+
+    span:first-child{
+        margin-right: 5px;
+    }
+
+    .leftSide li{
+        text-align: left;
+        padding-left: 80px;
+        padding-top: 50px;
+        font-size: 1.4rem;
+    }
 }
