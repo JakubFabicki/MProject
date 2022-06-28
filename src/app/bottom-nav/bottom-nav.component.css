@@ -1,0 +1,29 @@
+nav{
+    padding: 5px;
+    display: flex;
+    width: 100vw;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    -moz-box-shadow: 0 -4px 4px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 -4px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 -4px 4px rgba(0, 0, 0, 0.4);
+    font-weight: bold;
+}
+
+.nav{
+    height: 100%;
+    width: 50%;
+}
+
+.material-symbols-outlined{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

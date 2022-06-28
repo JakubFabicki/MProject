@@ -1,0 +1,119 @@
+*{
+    color: black;
+}
+
+.container{
+    margin-top: 100px;   
+    font-weight: 500;
+}
+
+article{
+    text-align: justify;
+    padding: 0 20px;
+    font-size: 1rem;
+}
+
+p{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 37px;
+}
+
+hr{
+    width: 70px;
+    border: 1px solid black;
+    margin: 19px auto;
+}
+
+
+/* -------- OPINIONS AND PHOTOS -------- */
+
+
+.stars{
+    display: flex;
+    align-items: flex-end;
+    margin: 20px 0;
+}
+
+.star{
+    font-size: 22px;
+    color: #fbbc04;
+}
+
+.time{
+    margin-left: 20px;
+    color: #6b6b6b;
+}
+
+.opinion--text, .opinion--author{
+    text-align: left;
+}
+
+.opinion--img{
+    margin-top: 10px;
+    width: 50%;
+}
+
+.reset{
+    margin-top: 80px;
+}
+
+.opinion--author{
+    margin: 10px 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #484848;
+}
+
+.opinion{
+    margin-bottom: 50px;
+}
+
+img{
+    width: 100%;
+    margin: 2px;
+}
+
+.car{
+    margin: 60px 0;
+}
+
+.car--photos{
+    margin: 10px 0;
+    font-size: 1.1rem;
+    font-weight: bold;       
+}
+
+.car--hr{
+    width: 80%;
+    border-color: #484848;
+    margin: 5px auto 10px;
+}
+
+.maps{
+    margin: 0;
+    margin-left: -20px;
+    width: 100vw;
+}
+.open-time--text{
+    margin-bottom: 50px;
+}
+
+table{
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+td{
+    width: 50px;
+    padding: 10px;
+    text-align: start;
+}
+
+.price{
+    text-align: center;
+}
+
+tr:nth-child(odd){
+    background-color: #e7e7e7;
+}

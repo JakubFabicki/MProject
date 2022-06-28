@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@600;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #484848;
+    font-family: 'Signika', sans-serif;
+    text-align: center;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
